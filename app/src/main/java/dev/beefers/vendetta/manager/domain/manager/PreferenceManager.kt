@@ -16,9 +16,9 @@ class PreferenceManager(context: Context) :
     val DEFAULT_MODULE_LOCATION =
         (context.externalCacheDir ?: File(Environment.getExternalStorageDirectory(), Environment.DIRECTORY_DOWNLOADS).resolve("VendettaManager").also { it.mkdirs() }).resolve("vendetta.apk")
 
-    var packageName by stringPreference("package_name", "dev.beefers.vendetta")
+    var packageName by stringPreference("package_name", "byeoon.Opti")
 
-    var appName by stringPreference("app_name", "Vendetta")
+    var appName by stringPreference("app_name", "Opti")
 
     var discordVersion by stringPreference("discord_version", "")
 

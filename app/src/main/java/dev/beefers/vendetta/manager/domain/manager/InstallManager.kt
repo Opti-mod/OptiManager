@@ -28,7 +28,7 @@ class InstallManager(
             when {
                 Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU -> {
                     context.packageManager.getPackageInfo(
-                        prefs.packageName.ifBlank { "dev.beefers.vendetta" },
+                        prefs.packageName.ifBlank { "byeoon.opti" },
                         PackageManager.PackageInfoFlags.of(
                             0L
                         )
@@ -37,7 +37,7 @@ class InstallManager(
 
                 else -> {
                     context.packageManager.getPackageInfo(
-                        prefs.packageName.ifBlank { "dev.beefers.vendetta" },
+                        prefs.packageName.ifBlank { "byeoon.opti" },
                         0
                     )
                 }

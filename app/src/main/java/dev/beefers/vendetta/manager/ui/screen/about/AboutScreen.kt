@@ -134,7 +134,7 @@ class AboutScreen : Screen {
                         LinkItem(
                             icon = R.drawable.ic_github,
                             label = R.string.label_github,
-                            link = "https://github.com/vendetta-mod"
+                            link = "https://github.com/opti-mod"
                         )
 
                         LinkItem(
@@ -152,6 +152,7 @@ class AboutScreen : Screen {
                         .fillMaxWidth()
                         .padding(top = 16.dp, bottom = 20.dp)
                 ) {
+                    UserEntry("byeoon", "Creator\nOpti", "byeoon", isLarge = true)
                     UserEntry("Fiery", "Lead dev\niOS", "FieryFlames")
                     UserEntry("Maisy", "Creator\nVendetta", "maisymoe", isLarge = true)
                     UserEntry("Wing", "Lead dev\nManager", "wingio")

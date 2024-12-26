@@ -153,9 +153,7 @@ class AboutScreen : Screen {
                         .padding(top = 16.dp, bottom = 20.dp)
                 ) {
                     UserEntry("byeoon", "Creator\nOpti", "byeoon", isLarge = true)
-                    UserEntry("Fiery", "Lead dev\niOS", "FieryFlames")
                     UserEntry("Maisy", "Creator\nVendetta", "maisymoe", isLarge = true)
-                    UserEntry("Wing", "Lead dev\nManager", "wingio")
                 }
 
                 Text(

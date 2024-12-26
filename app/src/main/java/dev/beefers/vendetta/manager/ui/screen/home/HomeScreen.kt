@@ -16,6 +16,7 @@ import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.OpenInNew
 import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.outlined.Person
 import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material3.Button
 import androidx.compose.material3.ElevatedCard
@@ -44,6 +45,7 @@ import dev.beefers.vendetta.manager.BuildConfig
 import dev.beefers.vendetta.manager.R
 import dev.beefers.vendetta.manager.domain.manager.PreferenceManager
 import dev.beefers.vendetta.manager.ui.components.SegmentedButton
+import dev.beefers.vendetta.manager.ui.screen.about.AboutScreen
 import dev.beefers.vendetta.manager.ui.screen.installer.InstallerScreen
 import dev.beefers.vendetta.manager.ui.screen.settings.SettingsScreen
 import dev.beefers.vendetta.manager.ui.viewmodel.home.HomeViewModel
@@ -148,6 +150,7 @@ class HomeScreen : Screen {
                         )
                     }
                 }
+                // TODO add thing that switches brancch
 
                 Button(
                     onClick = {
@@ -227,6 +230,12 @@ class HomeScreen : Screen {
             Icon(
                 imageVector = Icons.Filled.Refresh,
                 contentDescription = stringResource(R.string.action_reload)
+            )
+        }
+        IconButton(onClick = { navigator.navigate(AboutScreen()) }) {
+            Icon(
+                imageVector = Icons.Outlined.Person,
+                contentDescription = stringResource(R.string.action_open_about)
             )
         }
         IconButton(onClick = { navigator.navigate(SettingsScreen()) }) {

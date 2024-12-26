@@ -2,9 +2,9 @@
 
   <img src="images/vendetta_logo.png" alt="Vendetta logo" width="200px" style="border-radius: 50%" />
   
-  # Vendetta Manager
+  # OptiManager
 
-  Easily install Vendetta on Android
+  Easily install Opti on Android
 
   [![Latest release](https://img.shields.io/github/v/release/vendetta-mod/VendettaManager?color=3AB8BA&display_name=release&label=Latest&style=for-the-badge)](https://github.com/vendetta-mod/VendettaManager/releases/latest)
   
@@ -40,7 +40,7 @@ Build
 #### Instructions
 
 1. Clone the repo
-    - `git clone https://github.com/vendetta-mod/VendettaManager.git && cd VendettaManager`
+    - `git clone https://github.com/opti-mod/OptiManager.git && cd OptiManager`
 2. Build the project
     - Linux: `chmod +x ./gradlew && gradlew assembleDebug`
     - Windows: `./gradlew assembleDebug`

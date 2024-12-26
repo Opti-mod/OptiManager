@@ -6,5 +6,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Vendetta Manager"
+rootProject.name = "Opti Manager"
 include(":app")

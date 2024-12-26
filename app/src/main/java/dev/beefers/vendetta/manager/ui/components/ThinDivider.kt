@@ -7,6 +7,6 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun ThinDivider() = Divider(
-    color = MaterialTheme.colorScheme.onSurface.copy(0.1f),
+    color = MaterialTheme.colorScheme.onSurface.copy(0.2f),
     thickness = 0.5.dp,
 )

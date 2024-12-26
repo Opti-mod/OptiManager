@@ -29,8 +29,8 @@ class ReplaceIconStep : Step() {
                 arrayOf("mipmap-xhdpi-v4", "mipmap-xxhdpi-v4", "mipmap-xxxhdpi-v4")
             val icons = arrayOf(
                 "ic_logo_foreground.png",
-                "ic_logo_transparent",
-            //    "ic_logo_square.png",
+             //   "ic_logo_transparent",
+               "ic_logo_square.png",
                 "ic_logo_foreground.png"
             )
 

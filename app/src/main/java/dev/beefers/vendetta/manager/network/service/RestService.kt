@@ -26,6 +26,7 @@ class RestService(
         }
     }
 
+    // TODO show ability for other repos too
     suspend fun getCommits(repo: String, page: Int = 1) = withContext(Dispatchers.IO) {
         httpService.request<List<Commit>> {
             url("https://api.github.com/repos/opti-mod/$repo/commits")
